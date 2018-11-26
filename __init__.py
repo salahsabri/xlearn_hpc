@@ -50,10 +50,10 @@
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
 
-from xlearn.transform import *
-from xlearn.utils import *
-from xlearn.models import *
-from xlearn.segmentation import *
+from transform import *
+from utils import *
+from models import *
+from segmentation import *
 
 try:
     import pkg_resources
