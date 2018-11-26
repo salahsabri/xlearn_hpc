@@ -50,8 +50,8 @@ Module containing model_choose, seg_train and seg_predict routines
 """
 import numpy as np
 import time
-from xlearn.utils import nor_data, extract_3d, reconstruct_patches
-from xlearn.models import transformer2, transformer3_pooling
+from utils import nor_data, extract_3d, reconstruct_patches
+from models import transformer2, transformer3_pooling
 from os.path import join
 from skimage import io
 #import imageio
